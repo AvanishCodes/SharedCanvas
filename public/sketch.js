@@ -17,7 +17,7 @@ function setup() {
         console.log(data);
         totalConnections=data;
     });
-
+    colors.push(color(51));
 }
 
 function newDrawing(data){
