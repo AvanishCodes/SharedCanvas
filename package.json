@@ -1,0 +1,20 @@
+{
+  "name": "sharedcanvas",
+  "version": "1.0.0",
+  "description": "My first simple web project with NOde.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Shashank Sahu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "engines": {
+    "node": "8.11.3"
+  }
+}
