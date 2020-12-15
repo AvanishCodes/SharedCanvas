@@ -11,7 +11,7 @@ function setup() {
     let density = displayDensity();
     pixelDensity(density);
     background(51);
-    socket=io.connect('localhost:9000');
+    socket=io.connect('https://shared-canva.herokuapp.com/');
     socket.on('mouse',newDrawing);
     socket.on('changed',(data)=>{
         console.log(data);
